@@ -2,26 +2,26 @@
 // 1.Create a string, number, boolean, undefined, null, symbol, and bigint variable.
 // 2.Print each variable type using typeof.
 
-let str = "Hi guys";
+let str = "Hi guys";   // string
 console.log(typeof str);
 
-let num = 27
+let num = 27            // number
 console.log(typeof num);
 
-let sabir = true;
+let sabir = true;       //boolean
 console.log(typeof sabir);
 
-let nll = null
+let salary = null          //null
 
-console.log(typeof nll);
+console.log(typeof salary);
 
-let Davud
+let Davud                   //undefined
 console.log(typeof Davud);
 
-let sym = Symbol ("Zdrasti")
+let sym = Symbol ("Zdrasti") //symbol
 console.log(sym);
 
-let bnum = 12121213244343434n
+let bnum = 12121213244343434n //bigint
 console.log(bnum);
 
 //Keywords
@@ -36,7 +36,7 @@ const planet = "Earth"
 console.log(planet);
 
 
-var position = "Officer"
+var position = "Officer" //It has function scope, unlike 'let' and 'const' which have block scope, but 'var' is discouraged. 
 position = "SOC manager"
 console.log(position);
 
